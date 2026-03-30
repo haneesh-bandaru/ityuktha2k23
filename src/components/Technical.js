@@ -80,20 +80,27 @@ function Technical(){
         { threshold: 0.6 }
       );
   
-      observer1.observe(target1.current);
-      observer2.observe(target2.current);
-      observer3.observe(target2.current);
-      observer4.observe(target2.current);
-      observer5.observe(target2.current);
-      observer6.observe(target2.current);
+      const target1Value = target1.current;
+      const target2Value = target2.current;
+      const target3Value = target3.current;
+      const target4Value = target4.current;
+      const target5Value = target5.current;
+      const target6Value = target6.current;
+
+      if (target1Value) observer1.observe(target1Value);
+      if (target2Value) observer2.observe(target2Value);
+      if (target3Value) observer3.observe(target3Value);
+      if (target4Value) observer4.observe(target4Value);
+      if (target5Value) observer5.observe(target5Value);
+      if (target6Value) observer6.observe(target6Value);
   
       return () => {
-        observer1.unobserve(target1.current);
-        observer2.unobserve(target2.current);
-        observer3.unobserve(target2.current);
-        observer4.unobserve(target2.current);
-        observer5.unobserve(target2.current);
-        observer6.unobserve(target2.current);
+        if (target1Value) observer1.unobserve(target1Value);
+        if (target2Value) observer2.unobserve(target2Value);
+        if (target3Value) observer3.unobserve(target3Value);
+        if (target4Value) observer4.unobserve(target4Value);
+        if (target5Value) observer5.unobserve(target5Value);
+        if (target6Value) observer6.unobserve(target6Value);
       };
     }, []);
   

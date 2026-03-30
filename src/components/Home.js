@@ -34,12 +34,15 @@ function Home() {
       { threshold: 0.6 }
     );
 
-    observer1.observe(target1.current);
-    observer2.observe(target2.current);
+    const target1Value = target1.current;
+    const target2Value = target2.current;
+
+    if (target1Value) observer1.observe(target1Value);
+    if (target2Value) observer2.observe(target2Value);
 
     return () => {
-      observer1.unobserve(target1.current);
-      observer2.unobserve(target2.current);
+      if (target1Value) observer1.unobserve(target1Value);
+      if (target2Value) observer2.unobserve(target2Value);
     };
   }, []);
   const onAnimationEnd = () => {
