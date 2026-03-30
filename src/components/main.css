@@ -144,6 +144,7 @@ nav a:hover {
     background-size: 100%;
     background-repeat: repeat;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent;
 }
@@ -1602,4 +1603,37 @@ td a {
         margin-right: 5%;
         margin-bottom: 40px;
     }
+}
+
+/* Sponsors Vertical Scroll Animation */
+.sponsors-scroll-container {
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors-scroll-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: scroll-up 20s linear infinite;
+}
+
+.sponsors-scroll-content img {
+    margin-bottom: 20px;
+}
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+.sponsors-scroll-container:hover .sponsors-scroll-content {
+    animation-play-state: paused;
 }
