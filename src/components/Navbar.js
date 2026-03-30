@@ -12,11 +12,11 @@ function Navbar() {
 
   return (
     <header className="Nav">
-      <a href="/" className="idol"><img className="main-icon" src="/images/mainlogo.png" /></a>
+      <a href="/" className="idol"><img className="main-icon" src="/images/mainlogo.png" alt="ITYUKTA Main Logo" /></a>
       <p id="idol">
         ITYUKTA 2K<b id="idol-1">23</b>
       </p>
-    <img className="acm-icon" src="/images/acm-logo.png" />
+    <img className="acm-icon" src="/images/acm-logo.png" alt="ACM Logo" />
       <nav ref={navRef}>
         <a href="/" style={{ color: "#00A1F1" }}>
           Home
@@ -87,10 +87,10 @@ function Navbar() {
           <FaTimes />
         </button>
         <a href="https://instagram.com/ityukta__2k23?igshid=YmMyMTA2M2Y=">
-          <img className="social-icon" src="/images/insta2.svg" />
+          <img className="social-icon" src="/images/insta2.svg" alt="Instagram Logo" />
         </a>
         <a href="mailto:ityukta2k23@gmail.com">
-          <img className="social-icon" src="/images/gmail2.svg" />
+          <img className="social-icon" src="/images/gmail2.svg" alt="Gmail Logo" />
         </a>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>

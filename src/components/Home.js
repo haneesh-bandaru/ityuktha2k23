@@ -51,7 +51,7 @@ function Home() {
     <div>
       <div className="total">
         <div className="background">
-          <img id="bk" src="/images/bkf.jpg"></img> {/*"/images/bk.jpg" */}
+          <img id="bk" src="/images/bkf.jpg" alt="ITYUKTA 2K23 Background"></img> {/*"/images/bk.jpg" */}
           <p
             style={{ position: "relative" }}
             id="title"
@@ -101,7 +101,7 @@ function Home() {
         <div id="e-head0">
         <div id="cg0"  >
             <div id="cg1-logo">
-               <img src="/images/cg0.png"></img>
+               <img src="/images/cg0.png" alt="Chief Guest Dr.K.Venkatasubbaiah"></img>
             </div>
             <div id="c-p-content" style={{borderLeft:"3px solid #FF9900"}}>
             <p id="c-p-h"><u>CHEIFGUEST</u></p>
@@ -117,7 +117,7 @@ function Home() {
        <a href="https://www.jntucek.ac.in/faculty_profile/71/j.v.r._murthy" id="cg-link1">
           <div id="cg1"  >
             <div id="cg1-logo">
-               <img src="/images/cg1.jpg"></img>
+               <img src="/images/cg1.jpg" alt="Guest of Honour Dr.J.V.R.Murthy"></img>
             </div>
             <div id="c-p-content" style={{borderLeft:"3px solid #FF9900"}}>
             <p id="c-p-h"><u>GUEST OF HONOUR</u></p>
@@ -132,7 +132,7 @@ function Home() {
           <a href="https://www.iimv.ac.in/faculty/profile/josyula-srinivas" id="cg-link2">
           <div id="cg2"   >
           <div id="cg2-logo">
-          <img src="/images/cg2.jpg"></img>
+          <img src="/images/cg2.jpg" alt="Guest of Honour Dr.Josyula Srinivas"></img>
           </div>
           <div id="fa-co-content" style={{borderLeft:"3px solid #FF9900"}}>
           <p id="fa-co-h"><u>GUEST OF HONOUR</u></p>
@@ -153,7 +153,7 @@ function Home() {
           <div id="e-head1">
             <div id="c-p">
               <div id="c-p-logo">
-                <img src="/images/male-user.png"></img>
+                <img src="/images/male-user.png" alt="Male User Icon"></img>
               </div>
               <div id="c-p-content">
                 <p id="c-p-h">
@@ -166,7 +166,7 @@ function Home() {
             </div>
             <div id="fa-co">
               <div id="fa-co-logo">
-                <img src="/images/female-profile.png"></img>
+                <img src="/images/female-profile.png" alt="Female User Icon"></img>
               </div>
               <div id="fa-co-content">
                 <p id="fa-co-h">
@@ -181,7 +181,7 @@ function Home() {
           <div id="e-head2">
             <div id="m-co">
               <div id="m-co-logo">
-                <img src="/images/male-user.png"></img>
+                <img src="/images/male-user.png" alt="Male User Icon"></img>
               </div>
               <div id="m-co-content">
                 <p id="m-co-h">
@@ -206,7 +206,7 @@ function Home() {
             </div>
             <div id="fe-co">
               <div id="fe-co-logo">
-                <img src="/images/female-profile.png"></img>
+                <img src="/images/female-profile.png" alt="Female User Icon"></img>
               </div>
               <div id="fe-co-content">
                 <p id="fe-co-h">
@@ -225,7 +225,7 @@ function Home() {
           <div id="dance-e">
             <div id="cul">
               <div id="cul-logo">
-                <img src="/images/FBL.jpg"></img>
+                <img src="/images/FBL.jpg" alt="Cultural Night Event"></img>
               </div>
               <div id="cul-content">
                 <p id="e-head10">Cultural Night</p>
@@ -253,7 +253,7 @@ function Home() {
                 </p>
               </div>
               <div id="fb-logo">
-                <img src="/images/CULL.jpg"></img>
+                <img src="/images/CULL.jpg" alt="Flash Mob Event"></img>
               </div>
             </div>
           </div>
@@ -293,7 +293,7 @@ function Home() {
                 <b style={{ color: "#A4C636" }}>PAY WITH QR CODE :</b>
               </p>
               <div className="qr-div">
-                <img src="/images/QRCode_200Rs.jpg" className="qr"></img>
+                <img src="/images/QRCode_200Rs.jpg" className="qr" alt="Payment QR Code for 200 Rupees"></img>
               </div>
               <div id="reg-1">
                 <a

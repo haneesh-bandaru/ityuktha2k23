@@ -37,7 +37,7 @@ const Accomadation = () => {
              <p><b style={{color:"#A4C636"}}>Two days Accommodation fee (per person) :</b>  <b style={{color:"whitesmoke",fontWeight:"500"}}>500/-</b></p><br/>
              <p><b style={{color:"#A4C636"}}>PAY USING MOBILE NUMBER :</b><b style={{color:"whitesmoke",fontWeight:"500"}}>6301132862</b></p><br/>
              <p><b style={{color:"#A4C636"}}>PAY WITH QR CODE :</b></p>
-             <div className='qr-div'><img src="/images/QRCodeA.jpg" className='qr'></img></div>
+             <div className='qr-div'><img src="/images/QRCodeA.jpg" className='qr' alt="Accommodation Payment QR Code"></img></div>
              
              <div id='reg'><a id='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLScoeh5mgXOuGA8vAMZtBwzVUqGTJRxA8aqbk3Ojno_HgOqudw/viewform?usp=sf_link'>Register</a></div>
           </div>

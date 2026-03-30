@@ -39,12 +39,12 @@ const TQR = () => {
          <div className='qr-div' >
           <p><b style={{color:"#A4C636"}}>PAY USING UPI ID :</b><b style={{color:"whitesmoke",fontWeight:"500"}}>9985228800@boi</b></p><br/>
          <p><b style={{color:"#A4C636"}}>PAY WITH QR CODE :</b></p><br/>
-          <img src='/images/QRCode.jpg' className='qr'></img></div>
+          <img src='/images/QRCode.jpg' className='qr' alt="Payment QR Code"></img></div>
          </div>
          <div id='reg'><a id='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLSfwFJ-mvJNqY8SltKhcACY5bKbw3beWhPF82pKVtOkk0WRJpg/viewform?usp=sf_link'>Register</a></div>
         </div>
         <div id='poster'>
-        <img src="/images/TQRL.png"></img>
+        <img src="/images/TQRL.png" alt="Tech Quiz Event Poster"></img>
         </div>
       </div>
     </div>

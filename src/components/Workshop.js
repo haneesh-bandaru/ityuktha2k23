@@ -64,12 +64,12 @@ function Workshop(){
           <a href="/dv" id="w-link1" style={{textDecoration:"none",color:"black"}}>
             <div id="workshop1" ref={target1} className={`animate__animated ${isVisible1 ? 'animate__zoomIn' : ''}`} onAnimationEnd={onAnimationEnd}>
             <div id="workshop1-logo">
-            <img src="/images/DVRL.jpg"></img>
+            <img src="/images/DVRL.jpg" alt="Data Analytics and Visualization Workshop Logo"></img>
             </div>
             <div id="head-div"><p id="head">Data Analytics and Visualization</p></div>
             <div id="workshop1-content">
               <div id="w1-icon">
-              <img src="/images/female-profile.png"></img>
+              <img src="/images/female-profile.png" alt="Female Speaker Icon"></img>
               </div>
                <div>
                <p id="name">By Dr.Ch.Bindu Madhuri</p>
@@ -80,12 +80,12 @@ function Workshop(){
           <a href="/wbd" id="w-link2" style={{textDecoration:"none",color:"black"}}>
             <div id="workshop2" ref={target2} className={`animate__animated ${isVisible2 ? 'animate__zoomIn' : ''}`} onAnimationEnd={onAnimationEnd}>
             <div id="workshop2-logo">
-            <img src="/images/WBDRL.jpg"></img>
+            <img src="/images/WBDRL.jpg" alt="Full Stack Development Workshop Logo"></img>
             </div>
             <div id="head-div"><p id="head">Full Stack Development</p></div>
             <div id="workshop2-content">
             <div id="w2-icon">
-            <img src="/images/male-user.png"></img>
+            <img src="/images/male-user.png" alt="Male User Icon"></img>
             </div>
               <div>
                <p id="name">By ACM Web Masters </p>
@@ -98,12 +98,12 @@ function Workshop(){
           <a href="/wor3" id="w-link3" style={{textDecoration:"none",color:"black"}}>
             <div id="workshop2" ref={target3} className={`animate__animated ${isVisible3 ? 'animate__zoomIn' : ''}`} onAnimationEnd={onAnimationEnd}>
             <div id="workshop2-logo">
-            <img src="/images/WOR3RL.png"></img>
+            <img src="/images/WOR3RL.png" alt="Emerging Technologies Workshop Logo"></img>
             </div>
             <div id="head-div"><p id="head">Emerging Technologies and social innovations</p></div>
             <div id="workshop2-content">
             <div id="w2-icon">
-            <img src="/images/male-user.png"></img>
+            <img src="/images/male-user.png" alt="Male Speaker Icon"></img>
             </div>
               <div>
                <p id="name">By Rajkumar Choulapalli </p>

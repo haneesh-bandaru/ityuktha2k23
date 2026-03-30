@@ -31,11 +31,11 @@ const MMR = () => {
          <p><b style={{color:"#A4C636"}}>Prize money :</b>  <b style={{color:"whitesmoke",fontWeight:"500"}}>MOVIE TICKETS</b></p><br/>
           <p><b style={{color:"#A4C636"}}>PAY USING UPI ID :</b><b style={{color:"whitesmoke",fontWeight:"500"}}>9985228800@boi</b></p><br/>
          <p><b style={{color:"#A4C636"}}>PAY WITH QR CODE :</b></p>
-         <div className='qr-div'><img src='/images/QRCode_100Rs.jpg' className='qr'></img></div>
+         <div className='qr-div'><img src='/images/QRCode_100Rs.jpg' className='qr' alt="Payment QR Code for 100 Rupees"></img></div>
          <div id='reg'><a id='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLSdYlDVQiL-qL_tm88X85sRmDDOPjsYo0hD4CT8qqeh6vMz4Dg/viewform?usp=sf_link'>Register</a></div>
         </div>
         <div id='poster'>
-        <img src="/images/MMRL.png"></img>
+        <img src="/images/MMRL.png" alt="Movie Minds Event Poster"></img>
         </div>
       </div>
     </div>

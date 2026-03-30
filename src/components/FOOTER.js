@@ -11,10 +11,10 @@ const FOOTER = () => {
         <div id='fo-content'>
           <div id='fo-content-1'>
         <a className='a-my-social-icon' href="https://www.linkedin.com/in/hari-kowshik-molugu-56042923b">
-          <img  className="my-social-icon-1" src="/images/linkedin.svg" />
+          <img  className="my-social-icon-1" src="/images/linkedin.svg" alt="LinkedIn Logo" />
         </a>
         <a className='a-my-social-icon' href="https://github.com/HarikowshikMolugu">
-          <img className="my-social-icon-2" src="/images/github.svg" />
+          <img className="my-social-icon-2" src="/images/github.svg" alt="GitHub Logo" />
         </a>
         
         </div>

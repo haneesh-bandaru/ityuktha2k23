@@ -39,13 +39,13 @@ Together, data analytics and visualization can help organizations and individual
          
          <p><b style={{color:"#A4C636"}}>PAY USING UPI ID :</b><b style={{color:"whitesmoke",fontWeight:"500"}}>9985228800@boi</b></p><br/>
          <p><b style={{color:"#A4C636"}}>PAY WITH QR CODE :</b></p>
-         <div className='qr-div'><img src='/images/QRCode_800Rs.jpg' className='qr'></img></div>
+         <div className='qr-div'><img src='/images/QRCode_800Rs.jpg' className='qr' alt="Payment QR Code for 800 Rupees"></img></div>
          <p><b style={{color:"red"}}>NOTE* :</b><br/><br/>  <b style={{color:"whitesmoke",fontWeight:"500"}}>1.Top 15 participants from the Workshop will be provided with a 2 months free summer internship.<br/><br/>2.For better experience carry your own laptops.</b></p><br/>
          <div id='reg'><a id='reg-btn' href='https://docs.google.com/forms/d/e/1FAIpQLSeOxSPdLy6UpDJd5Hh8D94ynBFTVlHfyojPdz_fh1feG3qQTw/viewform?usp=sf_link'>Register</a></div>
          
         </div>
         <div id='poster'>
-        <img src="/images/DVRL.jpg"></img>
+        <img src="/images/DVRL.jpg" alt="Data Analytics Workshop Poster"></img>
         </div>
       </div>
     </div>
